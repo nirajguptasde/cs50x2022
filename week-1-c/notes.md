@@ -10,4 +10,7 @@
 - By default In C, unlike interpreted langauges, you have to declare your functions before you can use them.
   - For some reason, if you still want to be able to use the functions before you define them, you have to put a small note of declaration before the main function, just so the compiler knows that the function is defined down below.
   - while declraing, you must declare its return type and type of argument. Use the keyword void of both are not applicable.
-  - 
+- do while loop
+  - works similarly to while loop but with one difference
+    - it checks the condition last, as compared to normal while loop which checks the condition first.
+    - What that means is no matter what, the code inside the do while loop will run at least once.
